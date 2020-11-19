@@ -1,0 +1,12 @@
+{
+  "name": "requests.public.dappnode.eth",
+  "version": "0.1.0",
+  "description": "requests.public.dappnode.eth description",
+  "type": "service",
+  "author": "pablo",
+  "categories": ["Developer tools"],
+  "links": {
+    "homepage": "https://your-project-homepage-or-docs.io"
+  },
+  "license": "GLP-3.0"
+}

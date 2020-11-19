@@ -1,0 +1,9 @@
+version: "3.4"
+services:
+  requests.dnp.dappnode.eth:
+    build:
+      context: example-nodejs-app
+    image: "requests.public.dappnode.eth:0.1.0"
+    ports:
+      - "7070:7070"
+    restart: always

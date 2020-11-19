@@ -1,0 +1,8 @@
+[
+  {
+    "labels": {
+      "job": "requests"
+    },
+    "targets": ["requests.dappnode:6060"]
+  }
+]
