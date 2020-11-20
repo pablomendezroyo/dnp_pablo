@@ -3,6 +3,6 @@
     "labels": {
       "job": "requests"
     },
-    "targets": ["requests.dappnode:6060"]
+    "targets": ["requests.dappnode:7070"]
   }
 ]
