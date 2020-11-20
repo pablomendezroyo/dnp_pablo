@@ -1,9 +1,13 @@
 version: "3.4"
 services:
   requests.dnp.dappnode.eth:
+    image: "requests.dnp.dappnode.eth:0.1.0"
     build:
-      context: example-nodejs-app
-    image: "requests.public.dappnode.eth:0.1.0"
+      context: ./example-nodejs-app
     ports:
       - "7070:7070"
+    volumes:
+      - "app:/app"
     restart: always
+volumes:
+  app: {}
